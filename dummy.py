@@ -12,7 +12,7 @@ print("hour :" , d.hour)
 print("minute :" , d.minute)
 
 
-if date % 2 == 0 and hour == 17 and minute <= 20:
+if date % 2 == 0 and hour == 17 and minute <= 26:
 
     s = shelve.open("test")
     s['ids'] = 50

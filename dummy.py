@@ -27,8 +27,9 @@ else:
 p.close()
 
 str1 = "Hello world"
-f = open("file1.txt","r")
-print(f.read())
+f = open("file1.txt","w")
+f.write("Hello India")
+# print(f.read())
 f.close()
 
 print("id is : " , ids, )

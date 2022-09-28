@@ -12,10 +12,10 @@ print("hour :" , d.hour)
 print("minute :" , d.minute)
 
 
-if date % 2 == 0 and hour == 00 and minute <= 50:
+if date % 2 == 0 and hour == 16 and minute <= 50:
 
     s = shelve.open("test")
-    s['ids'] = 45
+    s['ids'] = 50
     s.close()
 
 

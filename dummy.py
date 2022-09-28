@@ -27,7 +27,7 @@ else:
 p.close()
 
 str1 = "Hello world"
-f = open("file.txt","w+")
+f = open("file1.txt","r")
 print(f.read())
 f.close()
 

@@ -28,8 +28,8 @@ p.close()
 
 str1 = "Hello world"
 f = open("file1.txt","w")
-f.write("Hello India")
-# print(f.read())
+# f.write("Hello India")
+print(f.read())
 f.close()
 
 print("id is : " , ids, )

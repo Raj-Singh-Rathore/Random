@@ -26,5 +26,10 @@ else:
     ids = p['ids']
 p.close()
 
+str1 = "Hello world"
+f = open("file.txt","w+")
+f.write(str1)
+print(str1)
+f.close()
 
 print("id is : " , ids, )

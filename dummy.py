@@ -28,8 +28,7 @@ p.close()
 
 str1 = "Hello world"
 f = open("file.txt","w+")
-f.write(str1)
-print(str1)
+print(f.read())
 f.close()
 
 print("id is : " , ids, )

@@ -12,11 +12,16 @@ print("hour :" , d.hour)
 print("minute :" , d.minute)
 
 
-if date % 2 == 0 and hour == 00 and minute <= 50:
+if date % 2 == 0 and hour == 17 and minute <= 20:
 
     s = shelve.open("test")
     s['ids'] = 50
     s.close()
+    
+    str1 = "Hello world"
+    f = open("file1.txt","w")
+    f.write("Hello India")
+    f.close()
 
 
 p = shelve.open('test')
@@ -26,10 +31,9 @@ else:
     ids = p['ids']
 p.close()
 
-str1 = "Hello world"
 f = open("file1.txt","r")
-# f.write("Hello India")
 print(f.read())
 f.close()
+
 
 print("id is : " , ids, )
